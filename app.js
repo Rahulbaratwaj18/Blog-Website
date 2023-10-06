@@ -10,7 +10,7 @@ const ejs = require("ejs");
 
 const mongoose =require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/blogDB");
+mongoose.connect("mongodb+srv://RahulBarawtaj18:lxJIvz8goZK1Nmzx@cluster0.mp6bl5z.mongodb.net/");
 
 const postSchema={
   title:String,
